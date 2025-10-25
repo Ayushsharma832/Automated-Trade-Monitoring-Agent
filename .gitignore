@@ -1,0 +1,26 @@
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Logs and lock files
+*.log
+*.lock
+events_log.jsonl
+agent.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env file (secrets)
+.env
